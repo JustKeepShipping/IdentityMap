@@ -15,4 +15,8 @@ export function generateSessionCode(length = 6): string {
   }
   return code;
 }
+
+// Alias `generateCode` to `generateSessionCode` for backwards compatibility.
+// Some components (e.g. the admin page) import generateCode directly. Exporting
+// this alias prevents module resolution errors without changing all imports.
 export const generateCode = generateSessionCode;
