@@ -15,3 +15,4 @@ export function generateSessionCode(length = 6): string {
   }
   return code;
 }
+export const generateCode = generateSessionCode;
