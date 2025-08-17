@@ -1,0 +1,18 @@
+/*
+  Global styles for the Identity Map application. To keep Phase 1
+  lightweight, we only reset margin and set a default font stack.
+  Additional styling should be introduced in later phases.
+*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
